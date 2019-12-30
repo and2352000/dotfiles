@@ -159,6 +159,8 @@ bar {
 
 exec albert
 exec --no-startup-id feh --bg-fill ~/Pictures/wallpaper.jpg
+exec xrandr --output eDP-1 --mode 1600x900
+exec --no-startup-id  nm-applet 
 
 bindsym $mod+b exec google-chrome
 bindsym $sup+l exec /home/aaron/i3lock-shell/lockscreenshot.sh
